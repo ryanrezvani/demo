@@ -8,8 +8,6 @@ import com.google.cloud.logging.Severity;
 import java.util.Collections;
 import io.grpc.LoadBalancerRegistry;
 import io.grpc.internal.PickFirstLoadBalancerProvider;
-import io.opentelemetry.api.OpenTelemetry;
-import io.opentelemetry.sdk.autoconfigure.AutoConfiguredOpenTelemetrySdk;
 import com.google.cloud.opentelemetry.trace.TraceConfiguration;
 import com.google.cloud.opentelemetry.trace.TraceExporter;
 /**
@@ -41,10 +39,6 @@ public class App {
       logging.flush();
     }
     System.out.printf("Logged: %s%n", textPayload);
-    }
-    
-    public OpenTelemetry openTelemetry() {
-      return AutoConfiguredOpenTelemetrySdk.initialize().getOpenTelemetrySdk();
     }
 
 }
