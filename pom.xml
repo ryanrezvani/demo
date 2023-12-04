@@ -43,7 +43,15 @@
         <artifactId>google-cloud-logging</artifactId>
         <version>3.15.12</version>
     </dependency>
+    <dependency>
+        <groupId>io.opentelemetry</groupId>
+        <artifactId>opentelemetry-api</artifactId>
+        <version>1.32.0</version>
+    </dependency>
+
+
   </dependencies>
+
 
 <build>
 <plugins>
