@@ -10,7 +10,8 @@ import io.grpc.LoadBalancerRegistry;
 import io.grpc.internal.PickFirstLoadBalancerProvider;
 import io.opentelemetry.api.OpenTelemetry;
 import io.opentelemetry.sdk.autoconfigure.AutoConfiguredOpenTelemetrySdk;
-
+import com.google.cloud.opentelemetry.trace.TraceConfiguration;
+import com.google.cloud.opentelemetry.trace.TraceExporter;
 /**
  * Hello world!
  *
@@ -21,6 +22,7 @@ public class App {
     String logName = "my-java-log"; // "my-log";
     String textPayload = "mysearchkeywordjava";
     LoadBalancerRegistry.getDefaultRegistry().register(new PickFirstLoadBalancerProvider());
+    TraceExporter traceExporter = TraceExporter.createWithDefaultConfiguration();
 
     // Instantiates a client
     try (Logging logging = LoggingOptions.getDefaultInstance().getService()) {

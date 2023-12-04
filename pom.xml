@@ -58,7 +58,11 @@
       <artifactId>opentelemetry-sdk-extension-autoconfigure-spi</artifactId>
       <version>1.32.0</version>
     </dependency>
-
+    <dependency>
+      <groupId>com.google.cloud.opentelemetry</groupId>
+      <artifactId>exporter-trace</artifactId>
+      <version>0.15.0</version>
+    </dependency>
 
   </dependencies>
 
