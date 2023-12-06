@@ -1,0 +1,83 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPTSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.6.0:tree (default-cli) @ demo ---
+[INFO] com.example:demo:jar:1.0-SNAPTSHOT
+[INFO] +- junit:junit:jar:4.11:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- com.google.cloud:google-cloud-logging:jar:3.15.12:compile
+[INFO] |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  +- org.checkerframework:checker-qual:jar:3.39.0:compile
+[INFO] |  +- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[INFO] |  +- com.google.code.gson:gson:jar:2.10.1:compile
+[INFO] |  +- io.grpc:grpc-api:jar:1.58.0:compile
+[INFO] |  +- io.grpc:grpc-stub:jar:1.58.0:compile
+[INFO] |  +- io.grpc:grpc-protobuf:jar:1.58.0:compile
+[INFO] |  +- io.grpc:grpc-protobuf-lite:jar:1.58.0:compile
+[INFO] |  +- com.google.api:api-common:jar:2.19.0:compile
+[INFO] |  +- com.google.auto.value:auto-value-annotations:jar:1.10.4:compile
+[INFO] |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  +- com.google.protobuf:protobuf-java:jar:3.24.4:compile
+[INFO] |  +- com.google.protobuf:protobuf-java-util:jar:3.24.4:compile
+[INFO] |  +- com.google.api.grpc:proto-google-common-protos:jar:2.27.0:compile
+[INFO] |  +- com.google.api.grpc:proto-google-cloud-logging-v2:jar:0.104.12:compile
+[INFO] |  +- com.google.api:gax:jar:2.36.0:compile
+[INFO] |  +- com.google.auth:google-auth-library-credentials:jar:1.20.0:compile
+[INFO] |  +- io.opencensus:opencensus-api:jar:0.31.1:compile
+[INFO] |  +- io.grpc:grpc-context:jar:1.58.0:compile
+[INFO] |  +- com.google.api:gax-grpc:jar:2.36.0:compile
+[INFO] |  +- io.grpc:grpc-alts:jar:1.58.0:compile
+[INFO] |  +- io.grpc:grpc-grpclb:jar:1.58.0:compile
+[INFO] |  +- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.2:compile
+[INFO] |  +- io.grpc:grpc-auth:jar:1.58.0:compile
+[INFO] |  +- io.grpc:grpc-netty-shaded:jar:1.58.0:compile
+[INFO] |  +- io.perfmark:perfmark-api:jar:0.26.0:runtime
+[INFO] |  +- io.grpc:grpc-googleapis:jar:1.58.0:runtime
+[INFO] |  +- io.grpc:grpc-xds:jar:1.58.0:runtime
+[INFO] |  +- io.opencensus:opencensus-proto:jar:0.2.0:runtime
+[INFO] |  +- io.grpc:grpc-services:jar:1.58.0:runtime
+[INFO] |  +- com.google.re2j:re2j:jar:1.7:runtime
+[INFO] |  +- org.threeten:threetenbp:jar:1.6.8:compile
+[INFO] |  +- com.google.cloud:google-cloud-core-grpc:jar:2.26.0:compile
+[INFO] |  +- com.google.auth:google-auth-library-oauth2-http:jar:1.20.0:compile
+[INFO] |  +- com.google.http-client:google-http-client-gson:jar:1.43.3:compile
+[INFO] |  +- com.google.http-client:google-http-client:jar:1.43.3:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+[INFO] |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.16.0:compile
+[INFO] |  +- org.apache.httpcomponents:httpcore:jar:4.4.16:compile
+[INFO] |  +- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
+[INFO] |  +- io.grpc:grpc-inprocess:jar:1.58.0:compile
+[INFO] |  +- io.grpc:grpc-core:jar:1.58.0:compile
+[INFO] |  +- com.google.android:annotations:jar:4.1.1.4:runtime
+[INFO] |  +- org.codehaus.mojo:animal-sniffer-annotations:jar:1.23:runtime
+[INFO] |  +- io.grpc:grpc-util:jar:1.58.0:runtime
+[INFO] |  +- com.google.cloud:google-cloud-core:jar:2.26.0:compile
+[INFO] |  +- com.google.api.grpc:proto-google-iam-v1:jar:1.22.0:compile
+[INFO] |  \- com.google.errorprone:error_prone_annotations:jar:2.22.0:compile
+[INFO] +- io.opentelemetry:opentelemetry-api:jar:1.32.0:compile
+[INFO] |  \- io.opentelemetry:opentelemetry-context:jar:1.32.0:compile
+[INFO] +- io.opentelemetry:opentelemetry-sdk:jar:1.32.0:compile
+[INFO] |  +- io.opentelemetry:opentelemetry-sdk-common:jar:1.32.0:compile
+[INFO] |  +- io.opentelemetry:opentelemetry-sdk-trace:jar:1.32.0:compile
+[INFO] |  \- io.opentelemetry:opentelemetry-sdk-logs:jar:1.32.0:compile
+[INFO] +- io.opentelemetry:opentelemetry-sdk-metrics:jar:1.32.0:compile
+[INFO] |  \- io.opentelemetry:opentelemetry-extension-incubator:jar:1.32.0-alpha:runtime
+[INFO] +- io.opentelemetry:opentelemetry-exporter-logging:jar:1.32.0:compile
+[INFO] +- io.opentelemetry.semconv:opentelemetry-semconv:jar:1.23.1-alpha:compile
+[INFO] +- io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.32.0:compile
+[INFO] |  \- io.opentelemetry:opentelemetry-api-events:jar:1.32.0-alpha:runtime
+[INFO] +- io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.32.0:compile
+[INFO] \- com.google.guava:guava:jar:32.1.2-jre:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.918 s
+[INFO] Finished at: 2023-12-06T14:16:37-05:00
+[INFO] ------------------------------------------------------------------------
