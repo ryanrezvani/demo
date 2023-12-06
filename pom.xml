@@ -84,13 +84,6 @@
             <artifactId>guava</artifactId>
             <version>32.1.2-jre</version>
         </dependency>
-        <dependency>
-          <groupId>com.google.protobuf</groupId>
-          <artifactId>protobuf-java</artifactId>
-          <version>3.22.0</version>
-      </dependency>
-
-  
   </dependencies>
 
 
@@ -168,6 +161,13 @@
               <shadedPattern>repackaged.com.google.common</shadedPattern>
               <includes>
                 <include>com.google.common.**</include>
+              </includes>
+            </relocation>
+            <relocation>
+              <pattern>com</pattern>
+              <shadedPattern>repackaged.com.google.protobuf</shadedPattern>
+              <includes>
+                <include>com.google.protobuf.**</include>
               </includes>
             </relocation>
           </relocations>

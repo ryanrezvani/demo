@@ -75,6 +75,13 @@
                     <include>com.google.common.**</include>
                   </includes>
                 </relocation>
+                <relocation>
+                  <pattern>com</pattern>
+                  <shadedPattern>repackaged.com.google.protobuf</shadedPattern>
+                  <includes>
+                    <include>com.google.protobuf.**</include>
+                  </includes>
+                </relocation>
               </relocations>
             </configuration>
           </execution>
